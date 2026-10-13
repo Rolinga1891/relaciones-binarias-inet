@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f5f7fa;
+}
+
+h1 {
+    color: #243b53;
+}
+
+#matriz {
+    display: grid;
+    grid-template-columns: repeat(4, 55px);
+    gap: 8px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.casilla {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pertenece {
+    background-color: #b8e6ce;
+}
+
+.noPertenece {
+    background-color: #e5e7eb;
+}
+
+.encabezado {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #243b53;
+}
